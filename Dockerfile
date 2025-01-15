@@ -4,7 +4,7 @@ FROM ghcr.io/linuxserver/baseimage-alpine-nginx:3.20
 
 # set version label
 ARG BUILD_DATE="2025-01-15"
-ARG VERSION="1.0.0"
+ARG VERSION="1.2.0"
 ARG NGINX_VERSION="1.24.0"
 LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
 LABEL maintainer="dan"
